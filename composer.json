@@ -12,7 +12,7 @@
         "cakephp/plugin-installer": "~1.0",
         "josegonzalez/dotenv": "2.*",
         "friendsofcake/bootstrap-ui": "^1.2",
-        "cakedc/cakephp-forum": "*"
+        "cakedc/cakephp-forum": "dev-master"
     },
     "require-dev": {
         "psy/psysh": "@stable",
@@ -55,11 +55,5 @@
         "test": "phpunit --colors=always"
     },
     "prefer-stable": true,
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../cakephp-forum"
-        }
-    ]
+    "minimum-stability": "dev"
 }

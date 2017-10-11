@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0fe203fe88a0f2b33d395175b2ee41e",
+    "content-hash": "c94095c7a1afea75e36d0b20720cefe0",
     "packages": [
         {
             "name": "aura/intl",
@@ -55,14 +55,20 @@
         {
             "name": "cakedc/cakephp-forum",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/cakephp-forum.git",
+                "reference": "bebeadb91289905af79bf2b46a094f383192f5ae"
+            },
             "dist": {
-                "type": "path",
-                "url": "../cakephp-forum",
-                "reference": "c38b6678aea1714dc3c52bc7633bef1bfe786eae",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-forum/zipball/bebeadb91289905af79bf2b46a094f383192f5ae",
+                "reference": "bebeadb91289905af79bf2b46a094f383192f5ae",
+                "shasum": ""
             },
             "require": {
                 "cakephp/cakephp": "^3.4",
+                "cakephp/migrations": "^1.7",
                 "muffin/orderly": "^1.0",
                 "muffin/slug": "^1.1"
             },
@@ -75,12 +81,7 @@
                     "CakeDC\\Forum\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "CakeDC\\Forum\\Test\\": "tests",
-                    "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -102,10 +103,7 @@
                 "cakephp",
                 "forum"
             ],
-            "support": {
-                "issues": "https://github.com/CakeDC/cakephp-forum/issues",
-                "source": "https://github.com/CakeDC/cakephp-forum"
-            }
+            "time": "2017-10-11 14:55:54"
         },
         {
             "name": "cakephp/cakephp",
@@ -2372,6 +2370,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "cakedc/cakephp-forum": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,
