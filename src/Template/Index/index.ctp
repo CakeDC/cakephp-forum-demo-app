@@ -2,6 +2,8 @@
 /**
  * @var \App\View\AppView $this
  */
+
+$this->assign('title', __('CakeDC Forum plugin demo app'))
 ?>
 <div class="jumbotron">
     <h1>Welcome!</h1>
