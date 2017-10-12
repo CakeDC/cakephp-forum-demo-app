@@ -58,12 +58,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-forum.git",
-                "reference": "bebeadb91289905af79bf2b46a094f383192f5ae"
+                "reference": "14db7c1996d1d22ced40877dfbb1cd1177083323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-forum/zipball/bebeadb91289905af79bf2b46a094f383192f5ae",
-                "reference": "bebeadb91289905af79bf2b46a094f383192f5ae",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-forum/zipball/14db7c1996d1d22ced40877dfbb1cd1177083323",
+                "reference": "14db7c1996d1d22ced40877dfbb1cd1177083323",
                 "shasum": ""
             },
             "require": {
@@ -103,7 +103,7 @@
                 "cakephp",
                 "forum"
             ],
-            "time": "2017-10-11 14:55:54"
+            "time": "2017-10-12T12:26:48+00:00"
         },
         {
             "name": "cakephp/cakephp",

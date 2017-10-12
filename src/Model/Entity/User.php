@@ -11,6 +11,7 @@ use Cake\ORM\Entity;
  * @property string $username
  * @property string $password
  * @property string $full_name
+ * @property int $posts_count
  * @property bool $is_superuser
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified

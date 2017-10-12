@@ -63,4 +63,17 @@ class UsersController extends AppController
     {
         return $this->redirect($this->Auth->logout());
     }
+
+    /**
+     * Profile method
+     *
+     * @param int $id User ID
+     * @return \Cake\Http\Response
+     */
+    public function profile($id)
+    {
+        $user = $this->Users->get($id);
+
+        $this->set(compact('user'));
+    }
 }

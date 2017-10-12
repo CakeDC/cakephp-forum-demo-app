@@ -36,7 +36,7 @@ $this->Html->script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstra
                     <li><?= $this->Html->link(__('Forum'), '/forum') ?></li>
                     <?php if ($currentUser): ?>
                         <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <?= __('User menu') ?> <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> <?= h($currentUser['full_name']) ?> <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <?php if ($currentUser['is_superuser']): ?>
                                     <li><?= $this->Html->link(__('Forum Admin'), '/forum/admin') ?></li>

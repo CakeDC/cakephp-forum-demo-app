@@ -216,5 +216,8 @@ if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
+Configure::load('forum');
+
 Plugin::load('CakeDC/Forum', ['bootstrap' => true, 'routes' => true]);
 Plugin::load('BootstrapUI');
+

@@ -9,6 +9,7 @@
     <p>Users available:</p>
     <ul>
         <li>Username <strong>admin</strong>, password <strong>password123</strong></li>
+        <li>Username <strong>moderator</strong>, password <strong>password123</strong></li>
         <li>Username <strong>user</strong>, password <strong>password123</strong></li>
     </ul>
     <p>
