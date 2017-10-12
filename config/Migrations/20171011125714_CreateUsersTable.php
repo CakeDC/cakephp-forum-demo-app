@@ -12,7 +12,6 @@ class CreateUsersTable extends AbstractMigration
      */
     public function change()
     {
-        /*
         $this->table('users')
             ->addColumn('username', 'string', [
                 'default' => null,
@@ -52,6 +51,5 @@ class CreateUsersTable extends AbstractMigration
             ])
             ->addIndex('username')
             ->create();
-        */
     }
 }

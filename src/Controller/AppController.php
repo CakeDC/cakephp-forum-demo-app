@@ -88,8 +88,8 @@ class AppController extends Controller
 
     public function isAuthorized($user): bool
     {
-        if ($this->request->getMethod() != 'GET') {
-            //return false;
+        if (env('READ_ONLY', false) && $this->request->getMethod() != 'GET') {
+            return false;
         }
 
         return true;
