@@ -5,7 +5,7 @@
 ?>
 <div class="jumbotron">
     <h1>Welcome!</h1>
-    <p>This is a demo app of CakeDC/Forum plugin for CakePHP.</p>
+    <p>This is a demo app of CakeDC Forum plugin for CakePHP.</p>
     <p>Users available:</p>
     <ul>
         <li>Username <strong>admin</strong>, password <strong>password123</strong></li>
